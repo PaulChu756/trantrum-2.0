@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Combu/Demo/Scenes/TrantrumDemo.unity
+  isLoaded: 1
+  isActive: 1
