@@ -1,8 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using Combu;
 
-public class TrantrumUser : Combu.User {
+public class TrantrumUser : User {
 
     string _firstName = "";
     string _secondName = "";

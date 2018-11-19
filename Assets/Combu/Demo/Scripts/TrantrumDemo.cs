@@ -110,7 +110,7 @@ public class TrantrumDemo : TrantrumDemoScene
     public void CustomDataLoad()
     {
         customError.text = "";
-        CombuDemoUser user = (CombuDemoUser)CombuManager.localUser;
+        TrantrumUser user = (TrantrumUser)CombuManager.localUser;
         textCustom.text = "";
         foreach (string key in CombuManager.localUser.customData.Keys)
         {
@@ -129,7 +129,7 @@ public class TrantrumDemo : TrantrumDemoScene
         else
         {
             textCustom.text = "Loading...";
-            CombuDemoUser user = (CombuDemoUser)CombuManager.localUser;
+            TrantrumUser user= (TrantrumUser)CombuManager.localUser;
             user.customData[customKey.text] = customValue.text;
             user.Update((bool success, string error) => {
                 if (success)
@@ -150,7 +150,7 @@ public class TrantrumDemo : TrantrumDemoScene
     public void AppCustomDataLoad()
     {
         appCustomError.text = "";
-        CombuDemoUser user = (CombuDemoUser)CombuManager.localUser;
+        TrantrumUser user = (TrantrumUser)CombuManager.localUser;
         appCustomText.text = "";
         foreach (string key in CombuManager.localUser.appCustomData.Keys)
         {
@@ -169,7 +169,7 @@ public class TrantrumDemo : TrantrumDemoScene
         else
         {
             appCustomText.text = "Loading...";
-            CombuDemoUser user = (CombuDemoUser)CombuManager.localUser;
+            TrantrumUser user= (TrantrumUser)CombuManager.localUser;
             user.appCustomData[appCustomKey.text] = appCustomValue.text;
             user.Update((bool success, string error) => {
                 if (success)

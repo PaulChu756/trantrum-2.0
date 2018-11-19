@@ -10,6 +10,10 @@ public class TrantrumDemoScene : TrantrumDemoPanel
 
     public InputField loginUsername;
     public InputField loginPassword;
+    public InputField loginFirstName;
+    public InputField loginSecondName;
+    public InputField loginEmail;
+    public InputField loginCompany;
     public Text loginError;
 
     public Animator panelMenu;
@@ -82,7 +86,7 @@ public class TrantrumDemoScene : TrantrumDemoPanel
         loginError.text = "Loading...";
         // We can specify our custom user type to Authenticate (to be able to cast CombuManager.localUser later)
         // or use the other override to use the basic User type.
-        CombuManager.platform.Authenticate<CombuDemoUser>(loginUsername.text, loginPassword.text, OnUserLogin);
+        CombuManager.platform.Authenticate<TrantrumUser>(loginUsername.text, loginPassword.text, OnUserLogin);
     }
 
     public virtual void UserLogout()

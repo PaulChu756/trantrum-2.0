@@ -6222,7 +6222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &853573644
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6645,6 +6645,10 @@ MonoBehaviour:
   textCombuVersion: {fileID: 0}
   loginUsername: {fileID: 1642683524}
   loginPassword: {fileID: 1677896403}
+  loginFirstName: {fileID: 0}
+  loginSecondName: {fileID: 0}
+  loginEmail: {fileID: 0}
+  loginCompany: {fileID: 0}
   loginError: {fileID: 611956998}
   panelMenu: {fileID: 999483300}
   registerUsername: {fileID: 539882391}
@@ -7561,7 +7565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1079696795
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9442,7 +9446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1319833292
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14050,7 +14054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1867116801
 RectTransform:
   m_ObjectHideFlags: 0
